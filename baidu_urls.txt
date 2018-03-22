@@ -1,0 +1,5 @@
+http://www.sel4.cn/2018/03/23/Find-Peak-Element/
+http://www.sel4.cn/2018/02/04/RSAlgorithm/
+http://www.sel4.cn/2018/02/04/tensorflow/
+http://www.sel4.cn/2018/02/03/ReinforcementLearningAnIntroduction/
+http://www.sel4.cn/2018/02/03/bitcionAboutSites/

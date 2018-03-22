@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<!-- 加载条 2 lines -->
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+        box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/labrador_dog_32px_1165302_easyicon.net.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/labrador_dog_32px_1165302_easyicon.net.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/labrador_dog_16px_1165302_easyicon.net.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/labrador_dog_32px_1165302_easyicon.net.png?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="gatekeeper keymaster keystore," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="弦外玄'Blog" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="你是谁?怎么证明你是你,而不是别人冒充的?如果有人企图冒充你,我将让你的痕迹永远消失!">
+<meta name="keywords" content="gatekeeper keymaster keystore">
+<meta property="og:type" content="article">
+<meta property="og:title" content="手机解锁方案">
+<meta property="og:url" content="http://www.sel4.cn/2018/02/01/2018-02-01-AuthToken/index.html">
+<meta property="og:site_name" content="弦外玄&#39;Blog">
+<meta property="og:description" content="你是谁?怎么证明你是你,而不是别人冒充的?如果有人企图冒充你,我将让你的痕迹永远消失!">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://www.sel4.cn/images/gatekeeper_flow.png">
+<meta property="og:updated_time" content="2018-02-04T13:22:31.368Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="手机解锁方案">
+<meta name="twitter:description" content="你是谁?怎么证明你是你,而不是别人冒充的?如果有人企图冒充你,我将让你的痕迹永远消失!">
+<meta name="twitter:image" content="http://www.sel4.cn/images/gatekeeper_flow.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.sel4.cn/2018/02/01/2018-02-01-AuthToken/"/>
+
+
+
+
+
+  <title>手机解锁方案 | 弦外玄'Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<!-- 鼠标烟花效果 -->
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
+
+<!-- zhangyp 页面点击小红心 -->
+<!--
+<script type="text/javascript" src="/js/src/love.js"></script>
+-->
+
+<!-- zhangyp 动态背景-->
+
+<!-- zhangyp 不蒜子侧边栏访问量 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!--
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+-->
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">弦外玄'Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">日出而作，日入而息，逍遥于天之间，而心意自得 。</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.sel4.cn/2018/02/01/2018-02-01-AuthToken/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="弦外玄">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="弦外玄'Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">手机解锁方案</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-01T17:48:26+08:00">
+                2018-02-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/02/01/2018-02-01-AuthToken/" class="leancloud_visitors" data-flag-title="手机解锁方案">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,957
+                </span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><blockquote class="blockquote-center"><br>你是谁?<br>怎么证明你是你,而不是别人冒充的?<br>如果有人企图冒充你,我将让你的痕迹永远消失!<br></blockquote><br><a id="more"></a></p>
+<h2 id="Gatekeeper-architecture"><a href="#Gatekeeper-architecture" class="headerlink" title="Gatekeeper architecture"></a>Gatekeeper architecture</h2><ul>
+<li><p>GateKeeper daemon<br>  C++ binder service 包含平台独立的逻辑和相应的GateKeeperService java 接口.</p>
+</li>
+<li><p>GateKeeper HAL API<br>  一个libhardware API 借口和实现模块</p>
+</li>
+<li><p>Hardware GateKeeper<br>  是GateKeeper HAL API的基于TEE的实现</p>
+</li>
+</ul>
+<p>LockSettingsService 会通过 Binder 发出一个请求，该请求会到达 Android 操作系统中的 gatekeeperd 守护进程。gatekeeperd 守护进程会发出一个请求，该请求会到达此守护进程在 TEE 中的副本 (Gatekeeper)。<br><img src="/images/gatekeeper_flow.png" alt="GateKeeper 数据流程">GateKeeper 进行身份验证的概要数据流程</p>
+<p>gatekeeperd 守护进程会向 Android 框架 API 授予访问 HAL 的权限，并且会参与向 Keystore 报告设备身份验证的活动。 gatekeeperd 守护进程会在自己的进程中运行，与系统服务器隔离开来。</p>
+<h2 id="什么是SID"><a href="#什么是SID" class="headerlink" title="什么是SID"></a>什么是SID</h2><p>SID是一个随机生成一个 64 位数.是由TEE在用户注册新的凭据时生成的.</p>
+<p>在设备恢复出厂设置后首次启动时，所有身份验证程序均会做好接受用户通过凭据注册的准备。用户必须先通过 Gatekeeper 注册一个 PIN 码/解锁图案/密码。该首次注册会随机生成一个 64 位的用户 SID（用户安全标识符），该用户 SID 将用作用户的标识符以及用户加密材料的绑定令牌。该用户 SID 会以加密形式绑定到用户的密码，成功通过 Gatekeeper 的身份验证后，会相应生成 AuthToken，其中包含用于该密码的用户 SID。</p>
+<p>每当用户注册新密码时，如果未提供之前的密码，系统就会使用加密伪随机数生成器 (PRNG) 生成一个用户 SID。这称为“不可信”重新注册，在正常情况下，Android 框架不允许进行这种操作。如果用户提供了之前的有效密码，便会发生“可信”重新注册；在这种情况下，用户 SID 会迁移到新密码句柄，从而保留绑定到它的密钥。</p>
+<p>注册密码时，用户 SID 会随密码句柄中的密码一起接受 HMAC 处理。</p>
+<p>用户 SID 会写入到 verify 函数返回的 AuthToken 中，并且会同所有与身份验证绑定的 Keystore 密钥相关联（要详细了解 AuthToken 格式和 Keystore，请参阅身份验证）。由于对 enroll 函数的不可信调用会更改用户 SID，因此此类调用会使绑定到相应密码的密钥无法再使用。攻击者在控制 Android 操作系统后可以更改设备密码，但在此过程中，他们需要破坏掉受 Root 保护的敏感密钥。</p>
+<h2 id="AuthToken"><a href="#AuthToken" class="headerlink" title="AuthToken"></a>AuthToken</h2><ul>
+<li><p>AuthToken 是在用户被验证时候,由Gatekeeper创建的.</p>
+</li>
+<li><p>gatekeeper ,fringerprint,keymaster在TEE中共享的HMAC key 用来签名 AuthToken.每次重启,创建一个新的Key,来避免重放攻击.</p>
+</li>
+</ul>
+<p>时间戳是用来确认自设备启动到用户最后一次被认证的时间和防止AuthToken的重放攻击.</p>
+<table>
+<thead>
+<tr>
+<th>域</th>
+<th>类型</th>
+<th>必需</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AuthToken Version</td>
+<td>1byte</td>
+<td>是</td>
+<td>下方所有字段的组代码。</td>
+</tr>
+<tr>
+<td>Challenge</td>
+<td>64bit unsigned integer</td>
+<td>否</td>
+<td>用于防范重播攻击的随机整数，通常是所请求的加密操作的 ID。目前由交易指纹授权使用。如果质询存在，AuthToken 将仅对包含该相同质询的加密操作有效。</td>
+</tr>
+<tr>
+<td>User SID</td>
+<td>64bit unsigned integer</td>
+<td>是</td>
+<td>不重复的用户标识符，以加密形式绑定到与设备身份验证关联的所有密钥.</td>
+</tr>
+<tr>
+<td>Authenticator ID</td>
+<td>64bit unsigned integer,按网络字节序保存</td>
+<td>否</td>
+<td>绑定到特定身份验证程序政策时使用的标识符。所有身份验证程序都有自己的 ASID 值，它们可以根据自己的要求更改该值。</td>
+</tr>
+<tr>
+<td>Authenticator Type</td>
+<td>64bit unsigned integer,按网络字节序保存</td>
+<td>是</td>
+<td>0x00 代表 Gatekeeper, 0x01 代表 Fingerprint</td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td>64bit unsigned integer,按网络字节序保存</td>
+<td>是</td>
+<td>自最近一次系统启动以来已经过的时间（以毫秒为单位）</td>
+</tr>
+<tr>
+<td>AuthToken HMAC(SHA-256)</td>
+<td>256-bit blob</td>
+<td>是</td>
+<td>除 HMAC 字段以外所有字段的已加密 SHA-256 MAC。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="AuthToken-HMAC"><a href="#AuthToken-HMAC" class="headerlink" title="AuthToken HMAC"></a>AuthToken HMAC</h2><p>每次设备启动时，都必须生成 AuthToken HMAC 密钥并由所有 TEE 组件（Gatekeeper、Fingerprint 和 Keymaster）共用该密钥。因此，为了加强对重播攻击的防范力度，每次设备重新启动时都必须随机生成 HMAC 密钥。</p>
+<p>关于与所有组件共用此 HMAC 密钥的协议是一项依赖于平台的实现功能。在任何情况下都不能将该密钥设为在 TEE 之外可用。如果 TEE 操作系统缺少内部进程间通信 (IPC) 机制，需要通过不可信操作系统传输数据，那么传输操作必须通过安全的密钥交换协议进行。</p>
+<h2 id="如何从keymaster获取AuthToken-key"><a href="#如何从keymaster获取AuthToken-key" class="headerlink" title="如何从keymaster获取AuthToken key"></a>如何从keymaster获取AuthToken key</h2><ol>
+<li>在HAL Open的时候,Keymaster TA通过CA APIs被打开.Keymaster TA的名字是keymaster</li>
+<li>指纹HAL通过requset和response结构体,发送KEYMASTER_GET_AUTH_TOKEN_KEY命令给Keymaster TA.</li>
+</ol>
+<h2 id="身份验证流程"><a href="#身份验证流程" class="headerlink" title="身份验证流程"></a>身份验证流程</h2><ol>
+<li><p>用户提供 PIN 码、解锁图案、密码或指纹。LockSettingsService 或 FingerprintService 通过 Binder 向相应的守护进程（gatekeeperd 或 fingerprintd）发出请求。指纹身份验证在指纹请求发出后异步进行。</p>
+</li>
+<li><p>守护进程将数据发至其副本，后者生成 AuthToken：</p>
+<ul>
+<li>对于 PIN 码/解锁图案/密码身份验证，gatekeeperd 将 PIN 码、解锁图案或密码哈希发送到 TEE 中的 Gatekeeper。如果 TEE 中的身份验证成功，TEE 中的 Gatekeeper 会将包含相应用户 SID（已使用 AuthToken HMAC 密钥签名）的 AuthToken 发送到它在 Android 操作系统中的副本。</li>
+<li>对于指纹身份验证，fingerprintd 会监听指纹事件并将数据发送到 TEE 中的 Fingerprint。如果 TEE 中的身份验证成功，TEE 中的 Fingerprint 会将 AuthToken（已使用 AuthToken HMAC 密钥签名）发送到它在 Android 操作系统中的副本。</li>
+</ul>
+</li>
+<li><p>守护进程收到经过签名的 AuthToken，并通过 Keystore 服务 Binder 接口的扩展程序将 AuthToken 传递给 Keystore 服务。 （gatekeeperd 还会在设备被重新锁定以及设备密码发生变化时通知 Keystore 服务。）</p>
+</li>
+<li><p>Keystore 服务将 AuthToken 传递给 Keymaster，以便使用与 Gatekeeper 和 Fingerprint Trustlet 共用的密钥验证 AuthToken。Keymaster 会将令牌中的时间戳视为最后一次身份验证的时间，并根据该时间戳做出密钥发布决定（以允许应用使用相应密钥）。</p>
+</li>
+</ol>
+<h2 id="错误请求次数限制"><a href="#错误请求次数限制" class="headerlink" title="错误请求次数限制"></a>错误请求次数限制</h2><p>验证PIN和password的失败次数和对应延迟验证的关系<br>如下:</p>
+<ul>
+<li>[1, 4] = 0 sec</li>
+<li>[5] = 30 sec</li>
+<li>[6, 9] = 0 sec</li>
+<li>[10, 30] = 30 sec</li>
+<li>[31, 140] = (30 <em> (2 ^ ((x - 30) / 10))) </em> 1000 sec</li>
+<li>[141, inf] = 1 day</li>
+</ul>
+<p>GateKeeper 必须能够安全地限制对用户凭据进行暴力破解的尝试次数。如 hardware/libhardware/include/hardware/gatekeeper.h 中所示，HAL 能够返回一个超时（以毫秒数计）。超时旨在通知客户端在超时过去之前不要再次调用 GateKeeper；如果有待处理的超时，GateKeeper 不应处理相关请求。</p>
+<p>Gatekeeper 必须先编写一个失败计数器，然后再验证用户密码。如果密码验证成功，则应清除失败计数器。这可以在发出 verify 调用后防止攻击者发起以下攻击：通过停用嵌入式 MMC (eMMC) 来阻止请求次数限制。此外，enroll 函数还会验证用户密码（如果提供了），并且必须以同样的方式对其加以限制。</p>
+<p>如果设备支持，强烈建议将失败计数器写入到安全存储空间。如果设备不支持文件级加密，或如果安全存储空间的速度过慢，实现可以直接使用 Replay Protected Memory Block (RPMB)。</p>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+        
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+        
+    </div>
+    <div>
+        
+            <!--  -->
+<div class="my_post_copyright">
+ <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+<!-- JS库 sweetalert 可修改路径 -->
+ <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+ <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+ <p><span>本文标题:</span><a href="/2018/02/01/2018-02-01-AuthToken/">手机解锁方案</a></p>
+ <p><span>文章作者:</span><a href="/" title="访问 弦外玄 的个人博客">弦外玄</a></p>
+ <p><span>发布时间:</span>2018年02月01日 - 17:02</p>
+ <p><span>最后更新:</span>2018年02月04日 - 21:02</p>
+ <p><span>原始链接:</span><a href="/2018/02/01/2018-02-01-AuthToken/" title="手机解锁方案">http://www.sel4.cn/2018/02/01/2018-02-01-AuthToken/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.sel4.cn/2018/02/01/2018-02-01-AuthToken/"  aria-label="复制成功！"></i></span>
+ </p>
+ <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+        $(".fa-clipboard").click(function(){
+            swal({   
+                title: "",   
+                text: '复制成功',   
+                html: false,
+                timer: 500,   
+                showConfirmButton: false
+            });
+        });
+    }));  
+</script>
+<!--  --
+
+        
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <!--- 修改文章底部#号为标签 --->
+            <a href="/tags/gatekeeper-keymaster-keystore/" rel="tag"><i class="fa fa-tag"></i> gatekeeper keymaster keystore</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/01/31/1/" rel="next" title="TLS协议解读">
+                <i class="fa fa-chevron-left"></i> TLS协议解读
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/02/03/2018-02-03-my-resume-inform-detailed/" rel="prev" title="My_resume_inform_detailed">
+                My_resume_inform_detailed <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_ydnote">有道</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMzM0NC85OTAw"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">弦外玄</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+            <br>
+            <br>
+            <div class="site-state-item site-state-posts" style="border-left:none;">
+                  <span class="site-state-item-count" id="busuanzi_value_site_pv"></span>
+                  <span class="site-state-item-name">浏览量</span>
+            </div>
+            <div class="site-state-item site-state-posts">
+                  <span class="site-state-item-count" id="busuanzi_value_site_uv"></span>
+                <span class="site-state-item-name">访客量</span>
+            </div>
+            <div class="site-state-item site-state-posts">
+                  <span class="site-state-item-count">17.6k</span>
+                  <span class="site-state-item-name">总字数</span>
+            </div>>
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.uisdc.com/" title="优设" target="_blank">优设</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://whycardano.com/cn/" title="卡尔达诺-区块链" target="_blank">卡尔达诺-区块链</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Gatekeeper-architecture"><span class="nav-number">1.</span> <span class="nav-text">Gatekeeper architecture</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是SID"><span class="nav-number">2.</span> <span class="nav-text">什么是SID</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AuthToken"><span class="nav-number">3.</span> <span class="nav-text">AuthToken</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AuthToken-HMAC"><span class="nav-number">4.</span> <span class="nav-text">AuthToken HMAC</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何从keymaster获取AuthToken-key"><span class="nav-number">5.</span> <span class="nav-text">如何从keymaster获取AuthToken key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#身份验证流程"><span class="nav-number">6.</span> <span class="nav-text">身份验证流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#错误请求次数限制"><span class="nav-number">7.</span> <span class="nav-text">错误请求次数限制</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <!-- 访客统计 -->
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-star"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">弦外玄</span>
+
+  
+</div>
+
+
+  <div class="powered-by">
+  <!--
+   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+  </br>本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次
+  -->
+</div>
+
+<!-- 就一个竖线|
+
+  <span class="post-meta-divider">|</span>
+
+-->
+<!-- zhangyp
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+-->
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("snPzwG0ctAIpkimzca9BuIpL-gzGzoHsz", "vvCVVP2gbJc8VHe3qXSJ9bfv");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
