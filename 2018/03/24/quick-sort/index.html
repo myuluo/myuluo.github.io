@@ -108,17 +108,17 @@
 
 
 
-<meta name="description" content="记录一些很好的文章，见解独到，描述准确">
+<meta name="description" content="快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="bitcionAboutSites">
-<meta property="og:url" content="http://www.sel4.cn/2018/02/03/bitcionAboutSites/index.html">
+<meta property="og:title" content="Quick_sort">
+<meta property="og:url" content="http://www.sel4.cn/2018/03/24/quick-sort/index.html">
 <meta property="og:site_name" content="弦外玄&#39;Blog">
-<meta property="og:description" content="记录一些很好的文章，见解独到，描述准确">
+<meta property="og:description" content="快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-04T13:22:31.372Z">
+<meta property="og:updated_time" content="2018-03-24T09:35:31.562Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="bitcionAboutSites">
-<meta name="twitter:description" content="记录一些很好的文章，见解独到，描述准确">
+<meta name="twitter:title" content="Quick_sort">
+<meta name="twitter:description" content="快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)">
 
 
 
@@ -148,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="http://www.sel4.cn/2018/02/03/bitcionAboutSites/"/>
+  <link rel="canonical" href="http://www.sel4.cn/2018/03/24/quick-sort/"/>
 
 
 
 
 
-  <title>bitcionAboutSites | 弦外玄'Blog</title>
+  <title>Quick_sort | 弦外玄'Blog</title>
   
 
 
@@ -325,7 +325,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.sel4.cn/2018/02/03/bitcionAboutSites/">
+    <link itemprop="mainEntityOfPage" href="http://www.sel4.cn/2018/03/24/quick-sort/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="弦外玄">
@@ -342,7 +342,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">bitcionAboutSites</h2>
+          <h2 class="post-title" itemprop="name headline">Quick_sort</h2>
         
 
         <div class="post-meta">
@@ -354,8 +354,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-03T17:41:23+08:00">
-                2018-02-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-24T17:20:09+08:00">
+                2018-03-24
               </time>
             
 
@@ -372,7 +372,7 @@
 
           
           
-             <span id="/2018/02/03/bitcionAboutSites/" class="leancloud_visitors" data-flag-title="bitcionAboutSites">
+             <span id="/2018/03/24/quick-sort/" class="leancloud_visitors" data-flag-title="Quick_sort">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -397,7 +397,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  357
+                  201
                 </span>
               
 
@@ -422,21 +422,8 @@
       
 
       
-        <p><blockquote class="blockquote-center"><br>记录一些很好的文章，见解独到，描述准确<br></blockquote><br><a id="more"></a><br><a href="https://zhuanlan.zhihu.com/p/28196364" target="_blank" rel="noopener">把比特币为什么要使用地址说的很清楚</a></p>
-<p>为什么比特币地址不直接使用公钥，而需要通过哈希生成？为什么每次付款都应该设置找零地址？<br>一笔交易需要提供：</p>
-<ul>
-<li>我的公钥</li>
-<li>接收方的地址</li>
-<li>我的地址</li>
-<li>我的另一个找零钱包的地址</li>
-<li>交易明细</li>
-<li>对以上数据的签名</li>
-</ul>
-<p>我们知道，每个人的比特别钱包中有多个比特币地址，每个比特币地址代表一定数量的比特币。</p>
-<p>而比特币地址是通过一个公钥通过哈希（RPIEMD+SHA）生成的，这个公钥又是由私钥通过椭圆曲线（ECC）生成的。</p>
-<p>私钥保存在比特币钱包中，不应泄露出去。而公钥在付款交易时，需要和比特币地址一起，通过交易记录公开发布，由区块链系统验证付款交易的有效性。</p>
-<p>每次付款，我的付款比特币地址（MyBitcoinAddr）都作废了，而钱分别转移到收款人她的比特币地址（HerBitcoinAddr）中，和我自己的找零地址（MyBitcoinAddr2）中。</p>
-<p>因为HerBitcoinAddr和MyBitcoinAddr2都从未付过款、公钥都从未公开过，所以，即使量子计算时代降临，这两个比特币地址中的钱还都是安全的。</p>
+        <p><blockquote class="blockquote-center"><br>快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)<br></blockquote><br><a id="more"></a></p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#incude &lt;stdio.h&gt;</span></span><br><span class="line">int a[<span class="number">101</span>],n<span class="comment">;</span></span><br><span class="line">void quicksort(int left,int right)</span><br><span class="line">&#123;</span><br><span class="line">trueint i,<span class="keyword">j,t,temp;</span></span><br><span class="line"><span class="keyword">	</span>if(left &gt; right)</span><br><span class="line">truetruereturn<span class="comment">;</span></span><br><span class="line">truetemp = a[left]<span class="comment">; //temp中存在的就是基准数</span></span><br><span class="line">truei = left<span class="comment">;</span></span><br><span class="line">true<span class="keyword">j </span>= right<span class="comment">;</span></span><br><span class="line">truewhile(i != <span class="keyword">j)</span></span><br><span class="line"><span class="keyword">	</span>&#123;</span><br><span class="line">truetruewhile(a[<span class="keyword">j]&gt;=temp </span>&amp;&amp; i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword">	</span>		<span class="keyword">j--;</span></span><br><span class="line"><span class="keyword">	</span>	while(a[i] &lt;= temp &amp;&amp; i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword">	</span>		i++<span class="comment">;</span></span><br><span class="line">truetrueif(i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword">	</span>	&#123;</span><br><span class="line"></span><br><span class="line">truetruetruet = a[i]<span class="comment">;</span></span><br><span class="line">truetruetruea[i] = a[<span class="keyword">j];</span></span><br><span class="line"><span class="keyword">	</span>		a[<span class="keyword">j]=t;</span></span><br><span class="line"><span class="keyword">	</span>	&#125;</span><br><span class="line">true&#125;</span><br><span class="line">truea[left]=a[i]<span class="comment">;</span></span><br><span class="line">truea[i]=temp<span class="comment">;</span></span><br><span class="line">truequicksort(left,i-1)<span class="comment">;</span></span><br><span class="line">truequicksort(i+i,right)<span class="comment">;</span></span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">trueint i,<span class="keyword">j,t;</span></span><br><span class="line"><span class="keyword">	</span><span class="keyword">scanf("%d",&amp;n);</span></span><br><span class="line"><span class="keyword">	</span>for(i=<span class="number">1</span><span class="comment">;i&lt;=n;i++)</span></span><br><span class="line">truetrue<span class="keyword">scanf("%d",&amp;a[i]);</span></span><br><span class="line"><span class="keyword">	</span>quicksort(<span class="number">1</span>,n)<span class="comment">;</span></span><br><span class="line">truefor(i=<span class="number">1</span><span class="comment">;i&lt;=n;i++)</span></span><br><span class="line">truetrueprintf(<span class="string">"%d"</span>,a[i])<span class="comment">;</span></span><br><span class="line">truegetchar()<span class="comment">;</span></span><br><span class="line">truegetchar()<span class="comment">;</span></span><br><span class="line">truereturn <span class="number">0</span><span class="comment">;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -463,12 +450,12 @@
  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
- <p><span>本文标题:</span><a href="/2018/02/03/bitcionAboutSites/">bitcionAboutSites</a></p>
+ <p><span>本文标题:</span><a href="/2018/03/24/quick-sort/">Quick_sort</a></p>
  <p><span>文章作者:</span><a href="/" title="访问 弦外玄 的个人博客">弦外玄</a></p>
- <p><span>发布时间:</span>2018年02月03日 - 17:02</p>
- <p><span>最后更新:</span>2018年02月04日 - 21:02</p>
- <p><span>原始链接:</span><a href="/2018/02/03/bitcionAboutSites/" title="bitcionAboutSites">http://www.sel4.cn/2018/02/03/bitcionAboutSites/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.sel4.cn/2018/02/03/bitcionAboutSites/"  aria-label="复制成功！"></i></span>
+ <p><span>发布时间:</span>2018年03月24日 - 17:03</p>
+ <p><span>最后更新:</span>2018年03月24日 - 17:03</p>
+ <p><span>原始链接:</span><a href="/2018/03/24/quick-sort/" title="Quick_sort">http://www.sel4.cn/2018/03/24/quick-sort/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.sel4.cn/2018/03/24/quick-sort/"  aria-label="复制成功！"></i></span>
  </p>
  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -509,8 +496,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/03/2018-02-03-smartPointer/" rel="next" title="SmartPointer">
-                <i class="fa fa-chevron-left"></i> SmartPointer
+              <a href="/2018/03/23/Find-Peak-Element/" rel="next" title="二分查找题">
+                <i class="fa fa-chevron-left"></i> 二分查找题
               </a>
             
           </div>
@@ -518,10 +505,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/02/03/ReinforcementLearningAnIntroduction/" rel="prev" title="ReinforcementLearningAnIntroduction">
-                ReinforcementLearningAnIntroduction <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>

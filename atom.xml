@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.sel4.cn/"/>
-  <updated>2018-03-22T23:55:27.689Z</updated>
+  <updated>2018-03-24T09:35:31.562Z</updated>
   <id>http://www.sel4.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Quick_sort</title>
+    <link href="http://www.sel4.cn/2018/03/24/quick-sort/"/>
+    <id>http://www.sel4.cn/2018/03/24/quick-sort/</id>
+    <published>2018-03-24T09:20:09.000Z</published>
+    <updated>2018-03-24T09:35:31.562Z</updated>
+    
+    <content type="html"><![CDATA[<p><blockquote class="blockquote-center"><br>快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)<br></blockquote><br><a id="more"></a></p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#incude &lt;stdio.h&gt;</span></span><br><span class="line">int a[<span class="number">101</span>],n<span class="comment">;</span></span><br><span class="line">void quicksort(int left,int right)</span><br><span class="line">&#123;</span><br><span class="line">trueint i,<span class="keyword">j,t,temp;</span></span><br><span class="line"><span class="keyword"></span>if(left &gt; right)</span><br><span class="line">truetruereturn<span class="comment">;</span></span><br><span class="line">truetemp = a[left]<span class="comment">; //temp中存在的就是基准数</span></span><br><span class="line">truei = left<span class="comment">;</span></span><br><span class="line">true<span class="keyword">j </span>= right<span class="comment">;</span></span><br><span class="line">truewhile(i != <span class="keyword">j)</span></span><br><span class="line"><span class="keyword"></span>&#123;</span><br><span class="line">truetruewhile(a[<span class="keyword">j]&gt;=temp </span>&amp;&amp; i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword"></span><span class="keyword">j--;</span></span><br><span class="line"><span class="keyword"></span>while(a[i] &lt;= temp &amp;&amp; i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword"></span>i++<span class="comment">;</span></span><br><span class="line">truetrueif(i&lt;<span class="keyword">j)</span></span><br><span class="line"><span class="keyword"></span>&#123;</span><br><span class="line"></span><br><span class="line">truetruetruet = a[i]<span class="comment">;</span></span><br><span class="line">truetruetruea[i] = a[<span class="keyword">j];</span></span><br><span class="line"><span class="keyword"></span>a[<span class="keyword">j]=t;</span></span><br><span class="line"><span class="keyword"></span>&#125;</span><br><span class="line">true&#125;</span><br><span class="line">truea[left]=a[i]<span class="comment">;</span></span><br><span class="line">truea[i]=temp<span class="comment">;</span></span><br><span class="line">truequicksort(left,i-1)<span class="comment">;</span></span><br><span class="line">truequicksort(i+i,right)<span class="comment">;</span></span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">trueint i,<span class="keyword">j,t;</span></span><br><span class="line"><span class="keyword"></span><span class="keyword">scanf("%d",&amp;n);</span></span><br><span class="line"><span class="keyword"></span>for(i=<span class="number">1</span><span class="comment">;i&lt;=n;i++)</span></span><br><span class="line">truetrue<span class="keyword">scanf("%d",&amp;a[i]);</span></span><br><span class="line"><span class="keyword"></span>quicksort(<span class="number">1</span>,n)<span class="comment">;</span></span><br><span class="line">truefor(i=<span class="number">1</span><span class="comment">;i&lt;=n;i++)</span></span><br><span class="line">truetrueprintf(<span class="string">"%d"</span>,a[i])<span class="comment">;</span></span><br><span class="line">truegetchar()<span class="comment">;</span></span><br><span class="line">truegetchar()<span class="comment">;</span></span><br><span class="line">truereturn <span class="number">0</span><span class="comment">;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;快速排序的最差实践复杂度和冒泡排序是一样的都在O(N^2),它的平均时间复杂度为O(NlogN)&lt;br&gt;&lt;/blockquote&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>二分查找题</title>
