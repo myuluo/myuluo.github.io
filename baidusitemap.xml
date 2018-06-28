@@ -64,26 +64,6 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/01/30/FastMessageQueue/</loc>
-    <lastmod>2018-02-04T13:22:31.412Z</lastmod>
-    <data>
-        <display>
-        <title>Android HIDL－快速消息队列</title>
-        <pubTime>2018-01-30T01:40:49.000Z</pubTime>
-        
-        <tag>HIDL</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="http://www.sel4.cn/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.sel4.cn/2018/01/16/ModernEncrypto/</loc>
     <lastmod>2018-02-04T13:22:31.412Z</lastmod>
     <data>
@@ -124,12 +104,62 @@
 
     
   <url>
+    <loc>http://www.sel4.cn/2018/01/30/FastMessageQueue/</loc>
+    <lastmod>2018-02-04T13:22:31.412Z</lastmod>
+    <data>
+        <display>
+        <title>Android HIDL－快速消息队列</title>
+        <pubTime>2018-01-30T01:40:49.000Z</pubTime>
+        
+        <tag>HIDL</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.sel4.cn/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.sel4.cn/2018/02/03/ReinforcementLearningAnIntroduction/</loc>
+    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
+    <data>
+        <display>
+        <title>ReinforcementLearningAnIntroduction</title>
+        <pubTime>2018-02-03T10:00:17.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.sel4.cn/2018/02/03/2018-02-03-my-resume-inform-detailed/</loc>
     <lastmod>2018-02-04T13:22:31.372Z</lastmod>
     <data>
         <display>
         <title>My_resume_inform_detailed</title>
         <pubTime>2018-02-03T03:40:53.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.sel4.cn/2018/02/03/bitcionAboutSites/</loc>
+    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
+    <data>
+        <display>
+        <title>bitcionAboutSites</title>
+        <pubTime>2018-02-03T09:41:23.000Z</pubTime>
         
          
            
@@ -153,36 +183,6 @@
              
               <breadCrumb title="program language" url="http://www.sel4.cn/categories/program-language/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.sel4.cn/2018/02/03/bitcionAboutSites/</loc>
-    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
-    <data>
-        <display>
-        <title>bitcionAboutSites</title>
-        <pubTime>2018-02-03T09:41:23.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.sel4.cn/2018/02/03/ReinforcementLearningAnIntroduction/</loc>
-    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
-    <data>
-        <display>
-        <title>ReinforcementLearningAnIntroduction</title>
-        <pubTime>2018-02-03T10:00:17.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
