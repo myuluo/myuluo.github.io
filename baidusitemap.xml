@@ -157,21 +157,6 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/02/03/bitcionAboutSites/</loc>
-    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
-    <data>
-        <display>
-        <title>bitcionAboutSites</title>
-        <pubTime>2018-02-03T09:41:23.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.sel4.cn/2018/02/03/2018-02-03-smartPointer/</loc>
     <lastmod>2018-02-04T13:22:31.372Z</lastmod>
     <data>
@@ -198,6 +183,21 @@
         <display>
         <title>ReinforcementLearningAnIntroduction</title>
         <pubTime>2018-02-03T10:00:17.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.sel4.cn/2018/02/03/bitcionAboutSites/</loc>
+    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
+    <data>
+        <display>
+        <title>bitcionAboutSites</title>
+        <pubTime>2018-02-03T09:41:23.000Z</pubTime>
         
          
            
@@ -262,14 +262,14 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/01/29/HIDL-C/</loc>
+    <loc>http://www.sel4.cn/2018/01/21/Android80Selinux/</loc>
     <lastmod>2018-01-31T13:11:22.786Z</lastmod>
     <data>
         <display>
-        <title>HIDL C++</title>
-        <pubTime>2018-01-29T08:48:50.000Z</pubTime>
+        <title>Android8.0的Selinux</title>
+        <pubTime>2018-01-21T09:48:07.000Z</pubTime>
         
-        <tag>HIDL</tag>
+        <tag>selinux android8.0 MAC</tag>
          
          
            
@@ -282,14 +282,14 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/01/21/Android80Selinux/</loc>
+    <loc>http://www.sel4.cn/2018/01/29/HIDL-C/</loc>
     <lastmod>2018-01-31T13:11:22.786Z</lastmod>
     <data>
         <display>
-        <title>Android8.0的Selinux</title>
-        <pubTime>2018-01-21T09:48:07.000Z</pubTime>
+        <title>HIDL C++</title>
+        <pubTime>2018-01-29T08:48:50.000Z</pubTime>
         
-        <tag>selinux android8.0 MAC</tag>
+        <tag>HIDL</tag>
          
          
            
