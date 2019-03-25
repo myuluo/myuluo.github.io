@@ -157,26 +157,6 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/02/03/2018-02-03-smartPointer/</loc>
-    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
-    <data>
-        <display>
-        <title>SmartPointer</title>
-        <pubTime>2018-02-03T07:09:39.000Z</pubTime>
-        
-        <tag>C++11 SmartPointer</tag>
-         
-         
-           
-             
-              <breadCrumb title="program language" url="http://www.sel4.cn/categories/program-language/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.sel4.cn/2018/02/03/ReinforcementLearningAnIntroduction/</loc>
     <lastmod>2018-02-04T13:22:31.372Z</lastmod>
     <data>
@@ -201,6 +181,26 @@
         
          
            
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.sel4.cn/2018/02/03/2018-02-03-smartPointer/</loc>
+    <lastmod>2018-02-04T13:22:31.372Z</lastmod>
+    <data>
+        <display>
+        <title>SmartPointer</title>
+        <pubTime>2018-02-03T07:09:39.000Z</pubTime>
+        
+        <tag>C++11 SmartPointer</tag>
+         
+         
+           
+             
+              <breadCrumb title="program language" url="http://www.sel4.cn/categories/program-language/"/>
+          
         </display>
     </data>
     </url>
@@ -242,14 +242,14 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/01/22/secureboot/</loc>
+    <loc>http://www.sel4.cn/2018/01/21/Android80Selinux/</loc>
     <lastmod>2018-01-31T13:11:22.786Z</lastmod>
     <data>
         <display>
-        <title>SecureBoot</title>
-        <pubTime>2018-01-22T03:26:58.000Z</pubTime>
+        <title>Android8.0的Selinux</title>
+        <pubTime>2018-01-21T09:48:07.000Z</pubTime>
         
-        <tag>SecureBoot certlink</tag>
+        <tag>selinux android8.0 MAC</tag>
          
          
            
@@ -262,14 +262,14 @@
 
     
   <url>
-    <loc>http://www.sel4.cn/2018/01/21/Android80Selinux/</loc>
+    <loc>http://www.sel4.cn/2018/01/22/secureboot/</loc>
     <lastmod>2018-01-31T13:11:22.786Z</lastmod>
     <data>
         <display>
-        <title>Android8.0的Selinux</title>
-        <pubTime>2018-01-21T09:48:07.000Z</pubTime>
+        <title>SecureBoot</title>
+        <pubTime>2018-01-22T03:26:58.000Z</pubTime>
         
-        <tag>selinux android8.0 MAC</tag>
+        <tag>SecureBoot certlink</tag>
          
          
            
